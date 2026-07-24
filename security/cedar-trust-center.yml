@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.cedar.com/legal/terms-of-use
+url: https://app.vanta.com/cedar/trust/tlk1ntzo9yee8y1npn3zhz
+platform: Vanta
+# Cedar publishes a Vanta-hosted Trust Center (linked from the site footer as
+# "Security at Cedar" / Trust Center). The Trust Center is a JavaScript SPA and
+# does not expose a machine-readable endpoint, so specific certifications could
+# not be enumerated programmatically. Named certifications are intentionally left
+# empty rather than fabricated; refresh by viewing the Vanta Trust Center in a
+# browser and requesting access to the certification documents.
+certifications: []
+evidence:
+- source: https://www.cedar.com
+  kind: footer-link
+  detail: "Trust Center linked from site footer (Vanta-hosted)"

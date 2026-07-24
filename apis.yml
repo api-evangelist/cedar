@@ -1,8 +1,18 @@
 aid: cedar
 name: Cedar
-description: Cedar is a company surfaced as a portfolio company of a16z, founders-fund, qed-investors,
-  sv-angel and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting
-  the enrichment pipeline.
+description: >-
+  Cedar is a healthcare financial technology company whose patient financial
+  experience platform unifies billing, payments, insurance coverage, and
+  support for health systems, hospitals, and clinician-services groups. Its
+  products include Cedar Pay (pre-visit, post-visit, and financing patient
+  payments), Cedar Cover (benefits and financial assistance, including Medicaid
+  enrollment), Cedar Support (AI-powered patient support and call-center
+  automation via Kora AI), and Cedar Intelligence (a proprietary AI system for
+  personalized patient engagement). Cedar reports having served over 50 million
+  patients and processed billions of dollars in patient payments. The company
+  is backed by a16z, Founders Fund, QED Investors, and SV Angel. Cedar publishes
+  no public developer API, developer portal, SDKs, or GitHub organization; this
+  profile captures its public identity, legal, and security-posture surface.
 url: https://raw.githubusercontent.com/api-evangelist/cedar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +23,30 @@ x-backed-by:
 - sv-angel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/69386146ee2bda039fe1d40a/699ddd1897d54d564a075e3f_webclip.png
 tags:
 - Company
+- Healthcare
+- Patient Payments
+- Revenue Cycle Management
+- Health Systems
+- Financial Technology
+- Billing
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.cedar.com
+- type: Blog
+  url: https://www.cedar.com/blog
+- type: About
+  url: https://www.cedar.com/about-us
+- type: PrivacyPolicy
+  url: https://www.cedar.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.cedar.com/legal/terms-of-use
+- type: TrustCenter
+  url: https://app.vanta.com/cedar/trust/tlk1ntzo9yee8y1npn3zhz
+- type: Compliance
+  url: https://app.vanta.com/cedar/trust/tlk1ntzo9yee8y1npn3zhz
+- type: DomainSecurity
+  url: security/cedar-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
